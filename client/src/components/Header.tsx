@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Phone, Wrench } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
+import logoImage from "@assets/1 wow_1761153066101.jpg";
 
 export default function Header() {
   const [location] = useLocation();
@@ -31,9 +32,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-background border-b transition-shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 gap-4">
-          <Link href="/" className="flex items-center gap-2 hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2">
-            <Wrench className="h-8 w-8 text-primary" />
-            <span className="font-heading font-bold text-xl text-foreground">Workshop on Wheels</span>
+          <Link href="/" className="flex items-center hover-elevate active-elevate-2 rounded-md px-2 py-1 -ml-2">
+            <img src={logoImage} alt="WOW - Workshop on Wheels" className="h-12 w-auto" />
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
