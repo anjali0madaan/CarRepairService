@@ -10,28 +10,28 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       name: "Sarah Mitchell",
-      location: "Downtown Chicago",
+      location: "West Auckland",
       avatar: sarahAvatar,
       rating: 5,
       comment: "Absolutely fantastic service! The mechanic came to my office and fixed my brake issue while I was in a meeting. So convenient and professional!",
     },
     {
       name: "Michael Chen",
-      location: "North Suburbs",
+      location: "South Auckland",
       avatar: michaelAvatar,
       rating: 5,
       comment: "Best mobile repair experience ever. They diagnosed my engine problem quickly and had it fixed the same day. Transparent pricing and friendly service.",
     },
     {
       name: "Robert Thompson",
-      location: "West Loop",
+      location: "CBD",
       avatar: robertAvatar,
       rating: 5,
       comment: "I was stranded on the highway and they came to my rescue within 30 minutes. Changed my battery on-site and got me back on the road. Highly recommend!",
     },
     {
       name: "Jennifer Davis",
-      location: "Lincoln Park",
+      location: "NORTH SHORE",
       avatar: jenniferAvatar,
       rating: 5,
       comment: "The convenience of having my oil changed in my driveway while working from home is unbeatable. Quality service without the hassle of driving to a shop!",
