@@ -6,7 +6,7 @@ export default function PricingSection() {
   const pricingItems = [
     {
       service: "Oil Change",
-      price: "$79",
+      price: "$99",
       features: ["Synthetic blend oil", "New oil filter", "Fluid top-off", "Multi-point inspection"],
     },
     {

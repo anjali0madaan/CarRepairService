@@ -57,8 +57,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <a href="mailto:info@nzautomotivecare.co.nz" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
-                      info@nzautomotivecare.co.nz
+                    <a href="mailto:hardevsingh7525@yahoo.com" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
+                      hardevsingh7525@yahoo.com
                     </a>
                   </div>
                 </div>
