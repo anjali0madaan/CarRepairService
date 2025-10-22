@@ -51,7 +51,7 @@ export default function Header() {
 
           <div className="hidden md:flex items-center gap-3">
             <Button variant="outline" size="sm" asChild data-testid="button-call">
-              <a href="tel:1-800-555-WRENCH">
+              <a href="tel:+642108233838">
                 <Phone className="h-4 w-4 mr-2" />
                 Call Now
               </a>
@@ -86,7 +86,7 @@ export default function Header() {
             ))}
             <div className="pt-4 space-y-2">
               <Button variant="outline" className="w-full" asChild data-testid="button-call-mobile">
-                <a href="tel:1-800-555-WRENCH">
+                <a href="tel:+642108233838">
                   <Phone className="h-4 w-4 mr-2" />
                   Call Now
                 </a>

@@ -16,11 +16,11 @@ export default function FAQSection() {
     },
     {
       question: "What if I need service outside your listed areas?",
-      answer: "Contact us directly! While we primarily serve the Chicago area, we may be able to accommodate special requests in nearby regions for an additional travel fee.",
+      answer: "Contact us directly! While we primarily serve the Auckland area, we may be able to accommodate special requests in nearby regions for an additional travel fee.",
     },
     {
       question: "Do you offer emergency roadside assistance?",
-      answer: "Absolutely! We provide 24/7 emergency roadside assistance for breakdowns, jump starts, tire changes, and other urgent repairs. Call us anytime at 1-800-555-WRENCH.",
+      answer: "Absolutely! We provide 24/7 emergency roadside assistance for breakdowns, jump starts, tire changes, and other urgent repairs. Call us anytime at +64 21 0823 3838.",
     },
     {
       question: "What payment methods do you accept?",

@@ -43,7 +43,7 @@ export default function HeroSection() {
               asChild
               data-testid="button-learn-more"
             >
-              <a href="tel:1-800-555-WRENCH">
+              <a href="tel:+642108233838">
                 <Phone className="h-5 w-5 mr-2" />
                 Call Us Now
               </a>

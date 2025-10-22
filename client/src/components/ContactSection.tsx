@@ -46,8 +46,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Phone</p>
-                    <a href="tel:1-800-555-WRENCH" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
-                      1-800-555-WRENCH
+                    <a href="tel:+642108233838" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-phone">
+                      +64 21 0823 3838
                     </a>
                   </div>
                 </div>
@@ -57,8 +57,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <p className="font-medium text-foreground">Email</p>
-                    <a href="mailto:info@workshoponwheels.com" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
-                      info@workshoponwheels.com
+                    <a href="mailto:info@nzautomotivecare.co.nz" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-email">
+                      info@nzautomotivecare.co.nz
                     </a>
                   </div>
                 </div>
@@ -67,8 +67,12 @@ export default function ContactSection() {
                     <MapPin className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium text-foreground">Service Area</p>
-                    <p className="text-muted-foreground">Greater Chicago Area</p>
+                    <p className="font-medium text-foreground">Address</p>
+                    <p className="text-muted-foreground">
+                      2/86 Huia Road<br />
+                      Papatoetoe<br />
+                      Auckland 2025
+                    </p>
                   </div>
                 </div>
               </div>

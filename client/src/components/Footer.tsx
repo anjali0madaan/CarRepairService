@@ -1,6 +1,6 @@
 import { Link } from "wouter";
-import { Wrench } from "lucide-react";
 import { SiFacebook, SiInstagram } from "react-icons/si";
+import logoImage from "@assets/1 wow_1761153066101.jpg";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -10,9 +10,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Wrench className="h-6 w-6 text-chart-2" />
-              <span className="font-heading font-bold text-lg">Workshop on Wheels</span>
+            <div className="mb-4">
+              <img src={logoImage} alt="WOW - Workshop on Wheels" className="h-16 w-auto mb-2" />
+              <p className="font-heading font-bold text-sm">NZ Automotive Care & Repair Ltd</p>
+              <p className="text-xs text-white/80 italic">Workshop On Wheels</p>
             </div>
             <p className="text-white/80 text-sm">
               Professional mobile auto repair bringing certified mechanics to your location.
@@ -62,13 +63,18 @@ export default function Footer() {
               </a>
             </div>
             <p className="text-sm text-white/80">
-              Call: <a href="tel:1-800-555-WRENCH" className="hover:text-white">1-800-555-WRENCH</a>
+              Call: <a href="tel:+642108233838" className="hover:text-white">+64 21 0823 3838</a>
+            </p>
+            <p className="text-sm text-white/80 mt-2">
+              2/86 Huia Road<br />
+              Papatoetoe<br />
+              Auckland 2025
             </p>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
-          <p>© {currentYear} Workshop on Wheels. All rights reserved.</p>
+          <p>© {currentYear} NZ Automotive Care & Repair Ltd. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>

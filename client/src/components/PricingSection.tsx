@@ -90,7 +90,7 @@ export default function PricingSection() {
             Contact us for a free, no-obligation estimate on any repair
           </p>
           <Button variant="outline" asChild data-testid="button-get-quote">
-            <a href="tel:1-800-555-WRENCH">Get Free Quote</a>
+            <a href="tel:+642108233838">Get Free Quote</a>
           </Button>
         </div>
       </div>
