@@ -28,6 +28,14 @@ export default function Header() {
     }
   };
 
+  const scrollToBooking = () => {
+    const element = document.getElementById("booking");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      setMobileMenuOpen(false);
+    }
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-background border-b transition-shadow">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -56,7 +64,7 @@ export default function Header() {
                 Call Now
               </a>
             </Button>
-            <Button size="sm" className="bg-chart-2 hover:bg-chart-2 text-white border border-chart-2" data-testid="button-book-header">
+            <Button size="sm" className="bg-chart-2 hover:bg-chart-2 text-white border border-chart-2" onClick={scrollToBooking} data-testid="button-book-header">
               Book Service
             </Button>
           </div>
@@ -91,7 +99,7 @@ export default function Header() {
                   Call Now
                 </a>
               </Button>
-              <Button className="w-full bg-chart-2 hover:bg-chart-2 text-white border border-chart-2" data-testid="button-book-mobile">
+              <Button className="w-full bg-chart-2 hover:bg-chart-2 text-white border border-chart-2" onClick={scrollToBooking} data-testid="button-book-mobile">
                 Book Service
               </Button>
             </div>
