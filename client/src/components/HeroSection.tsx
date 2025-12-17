@@ -20,12 +20,12 @@ export default function HeroSection() {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl">
-          <p className="text-chart-2 font-bold text-lg md:text-xl tracking-wide uppercase mb-4">
+          <h1 className="text-chart-2 font-bold text-5xl md:text-6xl lg:text-7xl tracking-wide uppercase mb-4">
             Workshop on Wheels
-          </p>
-          <h1 className="font-heading font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-6">
-            We Come to You,<br />So You Don't Have To!
           </h1>
+          <p className="font-heading font-bold text-2xl md:text-3xl lg:text-4xl text-white leading-tight mb-6">
+            We Come to You, So You Don't Have To!
+          </p>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
             Professional mobile auto repair service bringing certified mechanics directly to your location—home, office, or roadside.
           </p>
